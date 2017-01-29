@@ -30,7 +30,7 @@ window.onload = function(){
 //funcion donde cogemos los datos del xml y los ponemos en el html 
 function gestionarXml(dadesXml){
  var xmlDoc = dadesXml.responseXML;
- document.getElementById("title").innerHTML = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+ document.getElementById("title").innerHTML = xmlDoc.getElementsByTagName("text")[0].childNodes[0].nodeValue;
  secret=parseInt(xmlDoc.getElementsByTagName("answer")[0].childNodes[0].nodeValue);
 }
 
