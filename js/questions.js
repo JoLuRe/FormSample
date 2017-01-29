@@ -14,7 +14,7 @@ window.onload = function(){
  xhttp.open("GET", "xml/preguntas.xml", true);
  xhttp.send();
  
- //Para corregir gestionamos el contenido introducido en el formulario
+ /* //Para corregir gestionamos el contenido introducido en el formulario
  formElement=document.getElementById('myform');
  formElement.onsubmit=function(){
   var s=formElement.elements[0].value; 
@@ -26,7 +26,7 @@ window.onload = function(){
   return false;
  }
 }
-
+*/
 //funcion donde cogemos los datos del xml y los ponemos en el html 
 function gestionarXml(dadesXml){
  var xmlDoc = dadesXml.responseXML;
