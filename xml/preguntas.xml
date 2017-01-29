@@ -5,7 +5,7 @@
 <questions>
     <question id="profe_001">
 		<type>text</type>
-		<title>Adivina el número secreto... </title>
+		<text>Adivina el número secreto... </text>
 		<answer>23</answer>
 	</question>
 
